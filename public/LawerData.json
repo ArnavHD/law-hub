@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "image": "https://media.istockphoto.com/id/104821116/photo/smiling-lawyer-sitting-at-desk-in-office.jpg?s=612x612&w=0&k=20&c=lgsv21HGQYmtXBusPC3TB22OEEjH7xKflQVjliJ1OmQ=",
+    "name": "Alicia Bennett",
+    "speciality": "Criminal Defense",
+    "experience": "12 years",
+    "licenseNumber": "LAW-987654",
+    "fee": 180,
+    "availability": ["Monday", "Tuesday", "Wednesday", "Friday", "Saturday"],
+    "availabilityStatus": "Available"
+  },
+  {
+    "id": 2,
+    "image": "https://media.istockphoto.com/id/104821116/photo/smiling-lawyer-sitting-at-desk-in-office.jpg?s=612x612&w=0&k=20&c=lgsv21HGQYmtXBusPC3TB22OEEjH7xKflQVjliJ1OmQ=",
+    "name": "Michael Harris",
+    "speciality": "Family Law",
+    "experience": "9 years",
+    "licenseNumber": "LAW-563421",
+    "fee": 150,
+    "availability": ["Monday", "Tuesday", "Thursday", "Friday"],
+    "availabilityStatus": "Limited Slots"
+  },
+  {
+    "id": 3,
+    "image": "https://media.istockphoto.com/id/104821116/photo/smiling-lawyer-sitting-at-desk-in-office.jpg?s=612x612&w=0&k=20&c=lgsv21HGQYmtXBusPC3TB22OEEjH7xKflQVjliJ1OmQ=",
+    "name": "Samantha Lee",
+    "speciality": "Corporate Law",
+    "experience": "15 years",
+    "licenseNumber": "LAW-112233",
+    "fee": 250,
+    "availability": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    "availabilityStatus": "Available"
+  },
+  {
+    "id": 4,
+    "image": "https://media.istockphoto.com/id/104821116/photo/smiling-lawyer-sitting-at-desk-in-office.jpg?s=612x612&w=0&k=20&c=lgsv21HGQYmtXBusPC3TB22OEEjH7xKflQVjliJ1OmQ=",
+    "name": "Jonathan Price",
+    "speciality": "Immigration Law",
+    "experience": "7 years",
+    "licenseNumber": "LAW-778899",
+    "fee": 130,
+    "availability": ["Tuesday", "Wednesday", "Thursday", "Saturday"],
+    "availabilityStatus": "Available"
+  },
+  {
+    "id": 5,
+    "image": "https://media.istockphoto.com/id/104821116/photo/smiling-lawyer-sitting-at-desk-in-office.jpg?s=612x612&w=0&k=20&c=lgsv21HGQYmtXBusPC3TB22OEEjH7xKflQVjliJ1OmQ=",
+    "name": "Emily Carter",
+    "speciality": "Property Law",
+    "experience": "10 years",
+    "licenseNumber": "LAW-445566",
+    "fee": 160,
+    "availability": ["Monday", "Tuesday", "Thursday", "Saturday", "Sunday"],
+    "availabilityStatus": "Weekend Available"
+  },
+  {
+    "id": 6,
+    "image": "https://media.istockphoto.com/id/104821116/photo/smiling-lawyer-sitting-at-desk-in-office.jpg?s=612x612&w=0&k=20&c=lgsv21HGQYmtXBusPC3TB22OEEjH7xKflQVjliJ1OmQ=",
+    "name": "David Marshall",
+    "speciality": "Civil Litigation",
+    "experience": "18 years",
+    "licenseNumber": "LAW-221133",
+    "fee": 300,
+    "availability": ["Monday", "Wednesday", "Thursday", "Friday", "Saturday"],
+    "availabilityStatus": "Limited Slots"
+  },
+  {
+    "id": 7,
+    "image": "https://media.istockphoto.com/id/104821116/photo/smiling-lawyer-sitting-at-desk-in-office.jpg?s=612x612&w=0&k=20&c=lgsv21HGQYmtXBusPC3TB22OEEjH7xKflQVjliJ1OmQ=",
+    "name": "Rachel Morgan",
+    "speciality": "Tax Law",
+    "experience": "11 years",
+    "licenseNumber": "LAW-883366",
+    "fee": 200,
+    "availability": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+    "availabilityStatus": "Available"
+  },
+  {
+    "id": 8,
+    "image": "https://media.istockphoto.com/id/104821116/photo/smiling-lawyer-sitting-at-desk-in-office.jpg?s=612x612&w=0&k=20&c=lgsv21HGQYmtXBusPC3TB22OEEjH7xKflQVjliJ1OmQ=",
+    "name": "Christopher Young",
+    "speciality": "Bankruptcy Law",
+    "experience": "13 years",
+    "licenseNumber": "LAW-667744",
+    "fee": 220,
+    "availability": ["Wednesday", "Thursday", "Friday", "Saturday"],
+    "availabilityStatus": "Available"
+  },
+  {
+    "id": 9,
+    "image": "https://media.istockphoto.com/id/104821116/photo/smiling-lawyer-sitting-at-desk-in-office.jpg?s=612x612&w=0&k=20&c=lgsv21HGQYmtXBusPC3TB22OEEjH7xKflQVjliJ1OmQ=",
+    "name": "Natalie Brooks",
+    "speciality": "Employment Law",
+    "experience": "6 years",
+    "licenseNumber": "LAW-998877",
+    "fee": 120,
+    "availability": ["Tuesday", "Wednesday", "Friday", "Saturday", "Sunday"],
+    "availabilityStatus": "Weekend Available"
+  },
+  {
+    "id": 10,
+    "image": "https://media.istockphoto.com/id/104821116/photo/smiling-lawyer-sitting-at-desk-in-office.jpg?s=612x612&w=0&k=20&c=lgsv21HGQYmtXBusPC3TB22OEEjH7xKflQVjliJ1OmQ=",
+    "name": "Robert King",
+    "speciality": "Environmental Law",
+    "experience": "14 years",
+    "licenseNumber": "LAW-332211",
+    "fee": 240,
+    "availability": ["Monday", "Wednesday", "Thursday", "Friday"],
+    "availabilityStatus": "Available"
+  },
+  {
+    "id": 11,
+    "image": "https://media.istockphoto.com/id/104821116/photo/smiling-lawyer-sitting-at-desk-in-office.jpg?s=612x612&w=0&k=20&c=lgsv21HGQYmtXBusPC3TB22OEEjH7xKflQVjliJ1OmQ=",
+    "name": "Isabella Turner",
+    "speciality": "Intellectual Property Law",
+    "experience": "8 years",
+    "licenseNumber": "LAW-559922",
+    "fee": 190,
+    "availability": ["Monday", "Tuesday", "Thursday", "Friday", "Saturday"],
+    "availabilityStatus": "Limited Slots"
+  },
+  {
+    "id": 12,
+    "image": "https://media.istockphoto.com/id/104821116/photo/smiling-lawyer-sitting-at-desk-in-office.jpg?s=612x612&w=0&k=20&c=lgsv21HGQYmtXBusPC3TB22OEEjH7xKflQVjliJ1OmQ=",
+    "name": "Ethan Wallace",
+    "speciality": "Cyber Law",
+    "experience": "5 years",
+    "licenseNumber": "LAW-114477",
+    "fee": 110,
+    "availability": ["Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+    "availabilityStatus": "Weekend Available"
+  }
+]
