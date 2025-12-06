@@ -1,9 +1,11 @@
 import React from 'react';
 import { PiTrademarkRegistered } from "react-icons/pi";
+import { Link } from 'react-router';
 
 const Lawer = ({ lawer }) => {
-    const { licenseNumber, speciality, availabilityStatus, name, experience, image } =
-      lawer;;
+    const { licenseNumber, speciality, availabilityStatus, name, experience, image, id } =
+      lawer;
+      // console.log(lawer);
   return (
     <div>
       <div className="flex  justify-between items-center gap-16 p-7 border-2 border-black rounded-2xl">
@@ -27,12 +29,14 @@ const Lawer = ({ lawer }) => {
             <h1 className="mt-0.5 text-2xl font-bold">{name}</h1>
             <h3 className="mt-0.5 text-[18px]">{speciality}</h3>
             <h4 className="mt-0.5 flex justify-start items-center gap-2">
-              <PiTrademarkRegistered />
+              <PiTrademarkRegistered size={19} />
               License No: {licenseNumber}
             </h4>
-            <button className="btn py-2 mt-4 text-[rgba(23,106,229,1)] w-full rounded-4xl">
-              View Details
-            </button>
+            <Link to={`/lawer-detail/${id}`}>
+              <button className="btn py-2 mt-4 border border-[rgba(23,106,229,1)] bg-white text-[rgba(23,106,229,1)] w-full rounded-4xl">
+                View Details
+              </button>
+            </Link>
           </div>
         </div>
       </div>

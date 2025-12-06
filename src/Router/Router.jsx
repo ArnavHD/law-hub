@@ -2,6 +2,8 @@ import React from 'react';
 import { createBrowserRouter } from "react-router";
 import Root from '../Components/Root/Root';
 import Home from '../Components/Home/Home';
+import LawerDetails from '../Components/LawerDetails/LawerDetails';
+import Bookings from '../Components/Bookings/Bookings';
 
 export const router = createBrowserRouter([
   {
@@ -16,7 +18,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/my-booking",
-        element: <div>Hello This is booking time</div>,
+        Component: Bookings,
       },
       {
         path: "/blogs",
@@ -26,6 +28,11 @@ export const router = createBrowserRouter([
         path: "/contact-us",
         element: <div>Hello This is contact</div>,
       },
+      {
+        path: "/lawer-detail/:lawId",
+        loader: ()=> fetch("LawerData.json"),
+        Component: LawerDetails,
+      }
     ],
   },
 ]);

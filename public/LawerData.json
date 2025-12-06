@@ -7,8 +7,9 @@
     "experience": "12+ Years Experience",
     "licenseNumber": "LAW-987654",
     "fee": 180,
-    "availability": ["Monday", "Tuesday", "Wednesday", "Friday", "Saturday"],
-    "availabilityStatus": "Available"
+    "availability": ["Monday", "Thursday", "Saturday"],
+    "availabilityStatus": "Available",
+    "lawerDetails": "Alicia Bennett is a highly dedicated criminal defense lawyer known for her strong courtroom presence and exceptional attention to detail. She has spent over a decade defending clients in complex legal matters, ensuring every case receives a fair evaluation. Alicia believes in transparency, preparation, and treating her clients with utmost respect and professionalism."
   },
   {
     "id": 2,
@@ -18,8 +19,9 @@
     "experience": "9+ Years Experience",
     "licenseNumber": "LAW-563421",
     "fee": 150,
-    "availability": ["Monday", "Tuesday", "Thursday", "Friday"],
-    "availabilityStatus": "Limited Slots"
+    "availability": ["Tuesday", "Wednesday", "Friday", "Saturday"],
+    "availabilityStatus": "Limited Slots",
+    "lawerDetails": "Michael Harris specializes in family law, helping clients navigate difficult situations involving divorce, custody, and child support. His calm and understanding nature makes him a trusted advisor during emotional legal battles. Michael focuses on creating balanced solutions that protect both individual rights and family relationships. His clients appreciate his clear communication and compassionate guidance."
   },
   {
     "id": 3,
@@ -29,8 +31,9 @@
     "experience": "15+ Years Experience",
     "licenseNumber": "LAW-112233",
     "fee": 250,
-    "availability": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-    "availabilityStatus": "Available"
+    "availability": ["Monday", "Tuesday", "Thursday", "Friday", "Saturday"],
+    "availabilityStatus": "Available",
+    "lawerDetails": "Samantha Lee is an expert in corporate law, advising businesses ranging from startups to major companies. She excels in contract negotiation, compliance issues, and corporate structuring. With her strategic thinking and deep legal knowledge, she helps organizations avoid costly mistakes. Samantha is detail-oriented, highly organized, and trusted for her ability to simplify complex corporate procedures."
   },
   {
     "id": 4,
@@ -40,8 +43,9 @@
     "experience": "7+ Years Experience",
     "licenseNumber": "LAW-778899",
     "fee": 130,
-    "availability": ["Tuesday", "Wednesday", "Thursday", "Saturday"],
-    "availabilityStatus": "Available"
+    "availability": ["Wednesday", "Friday", "Sunday"],
+    "availabilityStatus": "Available",
+    "lawerDetails": "Jonathan Price has helped numerous clients achieve their immigration goals, from visas and permanent residency to complex appeals. His patience, cultural sensitivity, and clear explanations make the immigration process less stressful. Jonathan is known for going above and beyond to ensure every client’s application is strong, accurate, and backed by thorough legal support."
   },
   {
     "id": 5,
@@ -51,8 +55,9 @@
     "experience": "10+ Years Experience",
     "licenseNumber": "LAW-445566",
     "fee": 160,
-    "availability": ["Monday", "Tuesday", "Thursday", "Saturday", "Sunday"],
-    "availabilityStatus": "Available"
+    "availability": ["Monday", "Wednesday", "Thursday", "Saturday"],
+    "availabilityStatus": "Available",
+    "lawerDetails": "Emily Carter is a skilled property lawyer handling matters related to real estate transactions, land disputes, and legal documentation. Her clients trust her for her precision and reliability. Emily ensures every contract and agreement is handled professionally, helping clients avoid legal risks. She maintains a friendly approach while offering clear legal direction for property-related decisions."
   },
   {
     "id": 6,
@@ -62,8 +67,9 @@
     "experience": "18+ Years Experience",
     "licenseNumber": "LAW-221133",
     "fee": 300,
-    "availability": ["Monday", "Wednesday", "Thursday", "Friday", "Saturday"],
-    "availabilityStatus": "Limited Slots"
+    "availability": ["Tuesday", "Thursday", "Friday", "Saturday", "Sunday"],
+    "availabilityStatus": "Limited Slots",
+    "lawerDetails": "David Marshall is a senior civil litigation specialist known for handling complex disputes with strong legal strategy. He is respected for his analytical skills, confidence in court, and ability to negotiate fair resolutions. David values honesty and keeps clients fully informed throughout the process. His long experience ensures well-prepared arguments and effective representation."
   },
   {
     "id": 7,
@@ -73,8 +79,9 @@
     "experience": "11+ Years Experience",
     "licenseNumber": "LAW-883366",
     "fee": 200,
-    "availability": ["Monday", "Tuesday", "Wednesday", "Thursday"],
-    "availabilityStatus": "Available"
+    "availability": ["Monday", "Tuesday", "Wednesday"],
+    "availabilityStatus": "Available",
+    "lawerDetails": "Rachel Morgan is an experienced tax lawyer who helps individuals and businesses navigate complicated tax regulations. She is highly skilled at identifying issues early and providing effective solutions. Rachel believes in minimizing tax burdens legally and efficiently. Clients appreciate her organized methods, clear explanations, and ability to handle even the most stressful financial situations with confidence."
   },
   {
     "id": 8,
@@ -84,8 +91,9 @@
     "experience": "13+ Years Experience",
     "licenseNumber": "LAW-667744",
     "fee": 220,
-    "availability": ["Wednesday", "Thursday", "Friday", "Saturday"],
-    "availabilityStatus": "Available"
+    "availability": ["Thursday", "Friday", "Saturday", "Sunday"],
+    "availabilityStatus": "Available",
+    "lawerDetails": "Christopher Young works closely with clients facing financial struggles, guiding them through bankruptcy processes with empathy and professionalism. He ensures every case is carefully reviewed to find the best possible outcome. Christopher is known for fighting hard to protect clients’ rights, helping them regain stability and build a more secure financial future through legal support."
   },
   {
     "id": 9,
@@ -95,8 +103,9 @@
     "experience": "6+ Years Experience",
     "licenseNumber": "LAW-998877",
     "fee": 120,
-    "availability": ["Tuesday", "Wednesday", "Friday", "Saturday", "Sunday"],
-    "availabilityStatus": "Limited Slots"
+    "availability": ["Tuesday", "Thursday", "Saturday"],
+    "availabilityStatus": "Limited Slots",
+    "lawerDetails": "Natalie Brooks handles workplace issues such as wrongful termination, harassment, and contract disputes. She is dedicated to standing up for employee rights and ensures every client feels heard and supported. Natalie’s approach is thoughtful, fair, and strategic. She works hard to create solutions that protect her clients while promoting a fair work environment overall."
   },
   {
     "id": 10,
@@ -106,8 +115,9 @@
     "experience": "14+ Years Experience",
     "licenseNumber": "LAW-332211",
     "fee": 240,
-    "availability": ["Monday", "Wednesday", "Thursday", "Friday"],
-    "availabilityStatus": "Available"
+    "availability": ["Monday", "Wednesday", "Friday", "Saturday"],
+    "availabilityStatus": "Available",
+    "lawerDetails": "Robert King is deeply committed to protecting the environment through strong legal advocacy. He works on cases involving pollution, land use, and environmental regulations. With his structured approach and passion for sustainability, Robert helps clients follow legal standards while contributing to environmental responsibility. His work focuses on long-term solutions and ethical legal practices."
   },
   {
     "id": 11,
@@ -117,8 +127,9 @@
     "experience": "8+ Years Experience",
     "licenseNumber": "LAW-559922",
     "fee": 190,
-    "availability": ["Monday", "Tuesday", "Thursday", "Friday", "Saturday"],
-    "availabilityStatus": "Limited Slots"
+    "availability": ["Tuesday", "Wednesday", "Thursday", "Friday", "Sunday"],
+    "availabilityStatus": "Limited Slots",
+    "lawerDetails": "Isabella Turner protects the rights of creators, inventors, and businesses in intellectual property matters. She specializes in trademarks, copyrights, and patents. Isabella is highly detail-oriented and ensures every case is approached with accuracy and creativity. Clients trust her to secure their ideas, safeguard their innovations, and provide strong legal strategies for long-term protection."
   },
   {
     "id": 12,
@@ -128,7 +139,8 @@
     "experience": "5+ Years Experience",
     "licenseNumber": "LAW-114477",
     "fee": 110,
-    "availability": ["Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-    "availabilityStatus": "Available"
+    "availability": ["Wednesday", "Thursday", "Saturday"],
+    "availabilityStatus": "Available",
+    "lawerDetails": "Ethan Wallace is a cyber law specialist focused on digital rights, online security, and data protection issues. He works with both individuals and organizations to navigate internet-related legal challenges. Ethan is passionate about keeping people safe in the digital world and provides clear guidance on cybercrime, privacy laws, and legal responsibilities across modern technologies."
   }
 ]
