@@ -1,20 +1,26 @@
-import React, { useEffect, useState } from "react";
+// import React, { useEffect, useState } from "react";
 import { NavLink, useLoaderData, useParams } from "react-router";
 import { PiTrademarkRegistered } from "react-icons/pi";
 import { BiError } from "react-icons/bi";
+import { addToStoreDB, getStoredLawer } from "../../Utilities/AddToDB";
+// import { useState } from "react";
 
 const LawerDetails = () => {
   const params = useParams();
-  const [details, setDetails] = useState([]);
+//   const [localArray, setLocalArray] = useState([]);
+//   const [appointmentid, setAppointmentid] = useState([]);
 
-  useEffect(() => {
-    //
-  }, []);
+  
+
+//   console.log("Appointment array updated:", appointmentid);
+  
+
   // console.log(params.lawId);
   const lawers = useLoaderData();
   const lawerInfo = lawers.find((lawer) => lawer.id == params.lawId);
   console.log("Lawer info is:", lawerInfo);
   const {
+    id,
     image,
     name,
     experience,
@@ -23,6 +29,15 @@ const LawerDetails = () => {
     availability,
     fee,
   } = lawerInfo;
+
+  const hendleAddAppointment = (id) => {
+    addToStoreDB(id);
+    const lawerInLocal = getStoredLawer();
+    console.log(lawerInLocal);
+    // setLocalArray([...lawerInLocal, id]);
+
+    // setAppointmentid([...appointmentid, lawerInf]);
+  };
 
   return (
     <div>
@@ -55,8 +70,8 @@ const LawerDetails = () => {
             <div className="flex justify-center items-center gap-4">
               <span className="font-bold">Availability:</span>
               <ul className="flex gap-4">
-                {availability.map((day) => (
-                  <li className="bg-[rgba(255,160,0,0.1)] px-2.5 py-1 rounded-full text-[rgba(255,160,0,1)]">
+                {availability.map((day, index) => (
+                  <li key={index} className="bg-[rgba(255,160,0,0.1)] px-2.5 py-1 rounded-full text-[rgba(255,160,0,1)]">
                     {day}
                   </li>
                 ))}
@@ -90,7 +105,10 @@ const LawerDetails = () => {
           </p>
         </div>
         <NavLink to="/my-booking">
-          <button className="btn w-full text-xl text-white my-6 bg-[rgba(14,161,6,1)] rounded-4xl">
+          <button
+            onClick={() => hendleAddAppointment(id)}
+            className="btn w-full text-xl text-white my-6 bg-[rgba(14,161,6,1)] rounded-4xl"
+          >
             Book Appointment Now
           </button>
         </NavLink>

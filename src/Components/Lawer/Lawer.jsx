@@ -8,15 +8,15 @@ const Lawer = ({ lawer }) => {
       // console.log(lawer);
   return (
     <div>
-      <div className="flex  justify-between items-center gap-16 p-7 border-2 border-black rounded-2xl">
-        <div className="w-1/3">
+      <div className="flex  justify-between items-center gap-16 p-7 border border-black rounded-2xl">
+        <div className="w-4/12">
           <img
             className="w-40 h-40 object-cover rounded-xl"
             src={image}
             alt=""
           />
         </div>
-        <div className="w-2/3">
+        <div className="w-8/12">
           <div className=" flex gap-2">
             <p className=" text-[#09982F] bg-[#bef9ce] rounded-xl px-3">
               {availabilityStatus}
