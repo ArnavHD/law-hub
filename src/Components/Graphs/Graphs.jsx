@@ -1,12 +1,20 @@
 import React from 'react';
+import { useLoaderData } from 'react-router';
+import Graph from '../Graph/Graph';
 
 const Graphs = ({ lawerInLocal }) => {
-  return (
-    <div>
-      <h1>Here is the graphs</h1>
-      <p>Length is: {lawerInLocal.length}</p>
-    </div>
-  );
+    const data = useLoaderData();
+    // console.log(data);
+    const lawers = data.filter(lawer=>lawerInLocal.includes(lawer.id));
+    console.log(lawers);
+
+    const chartData = lawers.map(lawer=>({
+        name:lawer.name,
+        fee: lawer.fee, 
+    }));
+    // console.log(chartData);
+    
+  return <div>{<Graph chartData={chartData}></Graph>}</div>;
 };
 
 export default Graphs;

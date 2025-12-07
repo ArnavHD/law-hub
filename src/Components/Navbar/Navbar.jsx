@@ -4,8 +4,8 @@ import './navbar.css'
 
 const Navbar = () => {
   return (
-    <div>
-      <div className="navbar bg-base-100 shadow-sm">
+    <div className="rounded-2xl">
+      <div className="navbar bg-base-100 shadow-sm px-40 mb-8">
         <div className="navbar-start cursor-pointer">
           <img
             className=" w-14 h-14"

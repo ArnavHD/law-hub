@@ -10,7 +10,7 @@ export const router = createBrowserRouter([
   {
     path: "/",
     Component: Root,
-    loader: () => fetch("/LawerData.json"),
+    // loader: () => fetch("/LawerData.json"),
     errorElement: <div>404 Not Found</div>,
     children: [
       {

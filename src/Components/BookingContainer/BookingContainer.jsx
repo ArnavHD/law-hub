@@ -7,9 +7,9 @@ import Graphs from "../Graphs/Graphs";
 
 
 const BookingContainer = () => {
-    const [localArray, setLocalArray] = useState([]);
+    const [localArray, setLocalArray] = useState(getStoredLawer());
 
-  const lawerInLocal = getStoredLawer();
+  const lawerInLocal = localArray;
 //   console.log(lawerInLocal);
 
   const removeOne = (id) => {

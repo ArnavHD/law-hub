@@ -3,6 +3,7 @@
 import Booking from '../Booking/Booking';
 
 const Bookings = ({ lawerInLocal, removeOne }) => {
+    
   // const [localArray, setLocalArray] = useState([])
   //   const lawerInLocal = getStoredLawer();
 
