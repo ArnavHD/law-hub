@@ -37,14 +37,16 @@ export function TriangleBar(props) {
   );
 }
 
-const Graph = ({ chartData }) => {
+const Graph = ({ chartData, yesNo }) => {
   console.log("From graph", chartData);
-//   const { name, fee } = lawer;
-//   const data = [{ name: name, fee: fee }];
-const colors = ["#8894d8", "#82ca9d", "#ffc658", "#ff8042"];
+  //   const { name, fee } = lawer;
+  //   const data = [{ name: name, fee: fee }];
+  const colors = ["#8894d8", "#82ca9d", "#ffc658", "#ff8042"];
 
   return (
-    <div className="w-full p-12 border border-[rgba(20,20,20,0.15)] rounded-2xl mt-8 mb-24">
+    <div
+      className={`${yesNo ? "hidden" : "block"} w-full p-12 border border-[rgba(20,20,20,0.15)] rounded-2xl mt-8 mb-24`}
+    >
       <ResponsiveContainer width="100%" height={300}>
         <BarChart
           data={chartData}

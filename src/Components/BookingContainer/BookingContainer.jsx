@@ -8,6 +8,7 @@ import Graphs from "../Graphs/Graphs";
 
 const BookingContainer = () => {
     const [localArray, setLocalArray] = useState(getStoredLawer());
+    // const [yesNo, setYesNo] = useState(0)
 
   const lawerInLocal = localArray;
 //   console.log(lawerInLocal);
@@ -18,11 +19,20 @@ const BookingContainer = () => {
     console.log(restLocal);
     setLocalArray([...restLocal]);
   };
+  let yesNo;
+  if(localArray.length === 0){
+    yesNo = 1;
+    console.log(yesNo);
+  }
+  else{
+    yesNo = 0;
+    console.log(yesNo);
+  }
   
   return (
     <div>
-      <Graphs lawerInLocal={lawerInLocal}></Graphs>
-      <Bookings lawerInLocal={lawerInLocal} removeOne={removeOne}></Bookings>
+      <Graphs lawerInLocal={lawerInLocal} yesNo={yesNo}></Graphs>
+      <Bookings yesNo={yesNo} lawerInLocal={lawerInLocal} removeOne={removeOne}></Bookings>
     </div>
   );
 };

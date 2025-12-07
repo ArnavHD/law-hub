@@ -107,7 +107,7 @@ const LawerDetails = () => {
         <NavLink to="/my-booking">
           <button
             onClick={() => hendleAddAppointment(id)}
-            className="btn w-full text-xl text-white my-6 bg-[rgba(14,161,6,1)] rounded-4xl"
+            className="btn w-full text-xl text-white my-6 bg-[rgb(14,161,6)] rounded-4xl"
           >
             Book Appointment Now
           </button>

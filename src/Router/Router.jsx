@@ -5,13 +5,14 @@ import Home from '../Components/Home/Home';
 import LawerDetails from '../Components/LawerDetails/LawerDetails';
 import Bookings from '../Components/Bookings/Bookings';
 import BookingContainer from '../Components/BookingContainer/BookingContainer';
+import Error from '../Components/Error/Error';
 
 export const router = createBrowserRouter([
   {
     path: "/",
     Component: Root,
     // loader: () => fetch("/LawerData.json"),
-    errorElement: <div>404 Not Found</div>,
+    errorElement: <Error></Error>,
     children: [
       {
         path: "/",
@@ -29,7 +30,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/contact-us",
-        element: <div>Hello This is contact</div>,
+        element: <Error></Error>,
       },
       {
         path: "/lawer-detail/:lawId",

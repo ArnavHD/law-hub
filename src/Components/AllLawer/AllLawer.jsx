@@ -17,7 +17,7 @@ const AllLawer = () => {
 
   // console.log(lawers);
   return (
-    <div className="grid grid-cols-2 gap-16">
+    <div className="grid grid-cols-2 gap-16 mb-24">
       {listItem.map((lawer) => (
         <Lawer key={lawer.id} lawer={lawer}></Lawer>
       ))}

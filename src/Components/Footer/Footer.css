@@ -1,6 +1,6 @@
-.nav .active{
+.foot .active {
     text-decoration: underline;
-    text-decoration-color: #080100;
+    text-decoration-color: white;
     text-decoration-thickness: 4px;
     text-underline-offset: 12px;
     font-weight: bold;

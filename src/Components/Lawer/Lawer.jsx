@@ -8,7 +8,7 @@ const Lawer = ({ lawer }) => {
       // console.log(lawer);
   return (
     <div>
-      <div className="flex  justify-between items-center gap-16 p-7 border border-black rounded-2xl">
+      <div className="flex  justify-between items-center gap-5 p-7 border border-black rounded-2xl">
         <div className="w-4/12">
           <img
             className="w-40 h-40 object-cover rounded-xl"
@@ -28,6 +28,7 @@ const Lawer = ({ lawer }) => {
           <div>
             <h1 className="mt-0.5 text-2xl font-bold">{name}</h1>
             <h3 className="mt-0.5 text-[18px]">{speciality}</h3>
+            <div className='border border-dashed m-1'></div>
             <h4 className="mt-0.5 flex justify-start items-center gap-2">
               <PiTrademarkRegistered size={19} />
               License No: {licenseNumber}

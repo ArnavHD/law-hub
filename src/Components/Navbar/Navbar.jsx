@@ -14,11 +14,19 @@ const Navbar = () => {
           />
           <a className="text-4xl">Law.CA</a>
         </div>
-        <div className="navbar-center hidden lg:flex gap-12">
-          <NavLink to="/" className="text-xl">Home</NavLink>
-          <NavLink to="/my-booking" className="text-xl">My-Bookings</NavLink>
-          <NavLink to="/Blogs" className="text-xl">Blogs</NavLink>
-          <NavLink to="/contact-us" className="text-xl">Contact Us</NavLink>
+        <div className="nav navbar-center hidden lg:flex gap-12">
+          <NavLink to="/" className=" text-xl">
+            Home
+          </NavLink>
+          <NavLink to="/my-booking" className=" text-xl">
+            My-Bookings
+          </NavLink>
+          <NavLink to="/Blogs" className=" text-xl">
+            Blogs
+          </NavLink>
+          <NavLink to="/contact-us" className="text-xl">
+            Contact Us
+          </NavLink>
         </div>
         <div className="navbar-end">
           <button className="btn btn-success text-sm rounded-4xl text-white bg-[#0EA106] px-8 py-4">
