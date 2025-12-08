@@ -1,24 +1,48 @@
 // import React, { useEffect, useState } from "react";
-import { NavLink, useLoaderData, useParams } from "react-router";
+import { NavLink, useLoaderData, useNavigate } from "react-router";
 import { PiTrademarkRegistered } from "react-icons/pi";
 import { BiError } from "react-icons/bi";
 import { addToStoreDB, getStoredLawer } from "../../Utilities/AddToDB";
+import { FiPlusCircle } from "react-icons/fi";
+import { Bounce, ToastContainer, toast } from "react-toastify";
+
+
 // import { useState } from "react";
 
 const LawerDetails = () => {
-  const params = useParams();
-//   const [localArray, setLocalArray] = useState([]);
-//   const [appointmentid, setAppointmentid] = useState([]);
-
   
 
-//   console.log("Appointment array updated:", appointmentid);
+  let navigate = useNavigate();
+
+  const handleHome = () => {
+    navigate("/");
+  };
   
+   const notify = () => toast("Wow so easy !");
 
   // console.log(params.lawId);
-  const lawers = useLoaderData();
-  const lawerInfo = lawers.find((lawer) => lawer.id == params.lawId);
-  console.log("Lawer info is:", lawerInfo);
+  const lawer = useLoaderData();
+  console.log(lawer.id);
+
+  if (lawer.id === undefined) {
+    return (
+      <div className="text-center mt-20 mb-24 bg-gray-300 p-10 rounded-xl">
+        <h1 className="text-4xl font-bold mb-4">Lawyer Not Found</h1>
+        <p className="text-xl mt-4 mb-3">No lawyer found with the id-</p>
+        <p className="flex justify-center items-center gap-2 mb-4">
+          <FiPlusCircle />
+          {lawer}
+        </p>
+        <button
+          onClick={handleHome}
+          className="btn border-none text-white bg-[rgb(14,161,6)]"
+        >
+          View All Lawyers
+        </button>
+      </div>
+    );
+  }
+  
   const {
     id,
     image,
@@ -28,22 +52,40 @@ const LawerDetails = () => {
     licenseNumber,
     availability,
     fee,
-  } = lawerInfo;
+  } = lawer;
 
+  
+  console.log(id);
   const hendleAddAppointment = (id) => {
-    addToStoreDB(id);
     const lawerInLocal = getStoredLawer();
+    if(lawerInLocal.includes(id)){
+        toast.error("Appointment Already Scheduled for today", {
+          position: "top-right",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: false,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "light",
+          transition: Bounce,
+        });
+        return "Duplicate";
+        // console.log("Duplicated..");
+    }
+    
+    // lawerInLocal.filter((id) => id === id && console.log("Not allowed"));
+    addToStoreDB(id);
     console.log(lawerInLocal);
-    // setLocalArray([...lawerInLocal, id]);
-
-    // setAppointmentid([...appointmentid, lawerInf]);
+    
+    
   };
 
   return (
     <div>
       <div className="p-20 text-center bg-[rgba(15,15,15,0.05)] rounded-2xl mt-8">
         <h1 className=" text-4xl mb-4 font-bold">Lawyer’s Profile Details</h1>
-        <p className="text-[18px]">{lawerInfo.lawerDetails}</p>
+        <p className="text-[18px]">{lawer.lawerDetails}</p>
       </div>
 
       <div className="flex justify-between p-8  rounded-2xl border-2 my-8">
@@ -71,7 +113,10 @@ const LawerDetails = () => {
               <span className="font-bold">Availability:</span>
               <ul className="flex gap-4">
                 {availability.map((day, index) => (
-                  <li key={index} className="bg-[rgba(255,160,0,0.1)] px-2.5 py-1 rounded-full text-[rgba(255,160,0,1)]">
+                  <li
+                    key={index}
+                    className="bg-[rgba(255,160,0,0.1)] px-2.5 py-1 rounded-full text-[rgba(255,160,0,1)]"
+                  >
                     {day}
                   </li>
                 ))}
@@ -104,14 +149,37 @@ const LawerDetails = () => {
             for today only. We appreciate your understanding and cooperation.
           </p>
         </div>
-        <NavLink to="/my-booking">
-          <button
-            onClick={() => hendleAddAppointment(id)}
-            className="btn w-full text-xl text-white my-6 bg-[rgb(14,161,6)] rounded-4xl"
-          >
-            Book Appointment Now
-          </button>
-        </NavLink>
+
+        <button
+          onClick={() => {
+            let result = hendleAddAppointment(id);
+            if (result !== "Duplicate") {
+              navigate("/my-booking");
+            }
+            else{
+                notify;
+            }
+            
+          }}
+          
+          className="btn w-full text-xl text-white my-6 bg-[rgb(14,161,6)] rounded-4xl"
+        >
+          Book Appointment Now
+        </button>
+
+        <ToastContainer
+          position="top-right"
+          autoClose={5000}
+          hideProgressBar={false}
+          newestOnTop={false}
+          closeOnClick={false}
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover
+          theme="light"
+          transition={Bounce}
+        />
       </div>
     </div>
   );

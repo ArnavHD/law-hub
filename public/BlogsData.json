@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "question": "What is useState and how does it work in React?",
+    "answer": "In React, useState is a built-in hook that allows functional components to maintain and update internal state. When you call useState, it returns an array with two values: the current state and a function to update that state. React automatically re-renders the component whenever the state changes, ensuring the UI stays synchronized with the latest data. useState is ideal for managing simple, local states such as form inputs, toggles, counters, or UI interactions."
+  },
+  {
+    "id": 2,
+    "question": "What is the purpose of useEffect in React?",
+    "answer": "useEffect is a React hook designed to handle side effects in functional components. Side effects are tasks that happen outside the normal UI rendering process, such as fetching data, updating the document title, setting timers, or listening to events. useEffect runs after the component renders and can be controlled using a dependency array. If you include dependencies, it runs only when those values change. If you leave the array empty, it runs once like componentDidMount. This hook is essential for managing lifecycle behaviors in modern React apps."
+  },
+  {
+    "id": 3,
+    "question": "What is a custom hook in React and when should you use one?",
+    "answer": "A custom hook is a reusable JavaScript function that uses built-in React hooks to encapsulate logic that can be shared across multiple components. Custom hooks allow you to avoid repeating logic, making your code cleaner, more readable, and easier to maintain. You should use a custom hook when multiple components need the same stateful behavior—such as fetching data, managing form inputs, handling authentication, or toggling UI states. Custom hooks do not render UI; they only return logic or state that components can use."
+  },
+  {
+    "id": 4,
+    "question": "Difference between controlled and uncontrolled components. Which one is better?",
+    "answer": "Controlled components are form elements whose values are fully managed by React state. Every change triggers a state update, ensuring the UI and data stay in sync. Uncontrolled components rely on the DOM to store their values using refs. Controlled components offer more control and are recommended when you need validation, instant updates, or predictable state management. Uncontrolled components are simpler but give you less control over form data. Overall, controlled components are preferred in most professional React applications."
+  },
+  {
+    "id": 5,
+    "question": "Tell us something about useFormStatus() in React.",
+    "answer": "useFormStatus() is a React hook introduced for managing and tracking the status of form submissions, especially in server-side React environments like React Server Components or frameworks that use React actions. It allows developers to check if a form is currently submitting, pending, or completed. This makes it easy to disable buttons during submission, show loading indicators, or prevent duplicate submissions. useFormStatus enhances user experience by making form interactions smoother and more predictable."
+  }
+]

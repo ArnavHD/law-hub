@@ -3,7 +3,7 @@ import CountUp from "react-countup";
 
 const OurService = () => {
     return (
-      <div className='mb-24'>
+      <div className="mb-24">
         <div className="text-center space-y-4 mb-8">
           <h1 className="text-4xl font-bold">We Provide Best Law Services</h1>
           <p className="text-xl">
@@ -28,7 +28,14 @@ const OurService = () => {
                 redraw={true}
                 enableScrollSpy={true}
                 scrollSpyDelay={100}
-              ></CountUp>
+              >
+                {({ countUpRef, start }) => (
+                  <div>
+                    <span ref={countUpRef} />
+                    <button onClick={start}>Start</button>
+                  </div>
+                )}
+              </CountUp>
             </h1>
             <p className="text-xl">Total Lawyer</p>
           </div>
@@ -48,7 +55,14 @@ const OurService = () => {
                 redraw={true}
                 enableScrollSpy={true}
                 scrollSpyDelay={100}
-              ></CountUp>
+              >
+                {({ countUpRef, start }) => (
+                  <div>
+                    <span ref={countUpRef} />
+                    <button onClick={start}>Start</button>
+                  </div>
+                )}
+              </CountUp>
             </h1>
             <p className="text-xl">Total Reviews</p>
           </div>
@@ -68,7 +82,14 @@ const OurService = () => {
                 redraw={true}
                 enableScrollSpy={true}
                 scrollSpyDelay={100}
-              ></CountUp>
+              >
+                {({ countUpRef, start }) => (
+                  <div>
+                    <span ref={countUpRef} />
+                    <button onClick={start}>Start</button>
+                  </div>
+                )}
+              </CountUp>
             </h1>
             <p className="text-xl">Cases Initiated</p>
           </div>
@@ -88,7 +109,14 @@ const OurService = () => {
                 redraw={true}
                 enableScrollSpy={true}
                 scrollSpyDelay={100}
-              ></CountUp>
+              >
+                {({ countUpRef, start }) => (
+                  <div>
+                    <span ref={countUpRef} />
+                    <button onClick={start}>Start</button>
+                  </div>
+                )}
+              </CountUp>
             </h1>
             <p className="text-xl">Total Stuffs</p>
           </div>

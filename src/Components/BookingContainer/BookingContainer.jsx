@@ -1,20 +1,21 @@
-// import { useState } from "react";
 import { useState } from "react";
 import { getStoredLawer, removeFromStoreDB } from "../../Utilities/AddToDB";
 import Bookings from "../Bookings/Bookings";
 import Graphs from "../Graphs/Graphs";
-// import { useLoaderData } from "react-router";
+
 
 
 const BookingContainer = () => {
     const [localArray, setLocalArray] = useState(getStoredLawer());
-    // const [yesNo, setYesNo] = useState(0)
+    
+    
 
   const lawerInLocal = localArray;
 //   console.log(lawerInLocal);
 
   const removeOne = (id) => {
     removeFromStoreDB(id);
+    
     const restLocal = getStoredLawer();
     console.log(restLocal);
     setLocalArray([...restLocal]);

@@ -14,7 +14,7 @@ const addToStoreDB = (id) =>{
     const storedLawerData = getStoredLawer();
 
     if(storedLawerData.includes(id)){
-        alert("This is the data");
+        // alert("This is the data");
     }
     else{
         storedLawerData.push(id);
