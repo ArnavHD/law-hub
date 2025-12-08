@@ -3,7 +3,7 @@ import { useLoaderData } from "react-router";
 // import { getStoredLawer, removeFromStoreDB } from '../../Utilities/AddToDB';
 // import { DataContext } from '../BookingContainer/BookingContainer';
 // import { useLoaderData } from 'react-router';
-import { Bounce, ToastContainer, toast } from "react-toastify";
+// import { Bounce, ToastContainer, toast } from "react-toastify";
 
 // const removeOne = (id)=>{
 //     removeFromStoreDB(id);
@@ -23,7 +23,7 @@ const Booking = ({ lawerId, removeOne }) => {
 
   const handleToastCancelled = () => {
     // notify();
-    toast("Wow so easy!");
+    // toast("Wow so easy!");
   };
 
   return (
