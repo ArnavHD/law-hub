@@ -1,10 +1,11 @@
-import React, { useState } from "react";
+import React, { Suspense, useState } from "react";
 import { useLoaderData } from "react-router";
 import Lawer from "../Lawer/Lawer";
 
 const AllLawer = () => {
   const [showAll, setShowAll] = useState(false);
   const lawers = useLoaderData();
+  console.log(lawers);
   let listItem;
 
   if (showAll) {
@@ -18,9 +19,11 @@ const AllLawer = () => {
   // console.log(lawers);
   return (
     <div className="grid grid-cols-2 gap-16 mb-24">
+      {/* <Suspense fallback={<span>Loading...</span>}> */}
       {listItem.map((lawer) => (
         <Lawer key={lawer.id} lawer={lawer}></Lawer>
       ))}
+      {/* </Suspense> */}
 
       <button
         onClick={() => setShowAll(!showAll)}

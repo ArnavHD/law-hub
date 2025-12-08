@@ -14,7 +14,7 @@ import { Bounce, ToastContainer, toast } from "react-toastify";
 const Booking = ({ lawerId, removeOne }) => {
   console.log(lawerId);
   //   console.log("LocalArray",localArray);
-  //  const notify = () => toast("Wow so easy !");
+//    const notify = () => toast("Wow so easy !");
 
   const data = useLoaderData();
   console.log(data);
@@ -46,7 +46,7 @@ const Booking = ({ lawerId, removeOne }) => {
         onClick={() => {
           handleToastCancelled();
           removeOne(id);
-          //   notify();
+            // notify();
         }}
         className="btn mt-4 w-full text-[rgba(255,0,0,1)] border-[rgba(255,0,0,1)] rounded-4xl"
       >
