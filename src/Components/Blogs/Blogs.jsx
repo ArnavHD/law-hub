@@ -6,7 +6,7 @@ import Footer from '../Footer/Footer';
 
 const Blogs = () => {
     const data_blogs = useLoaderData();
-    console.log(data_blogs);
+    // console.log(data_blogs);
     return (
         <div className='bg-gray-100'>
             <Navbar></Navbar>
@@ -16,7 +16,7 @@ const Blogs = () => {
             </div>
             <div className='mb-28'>
             {
-                data_blogs.map(singleBlog=> <Blog  singleBlog={singleBlog}></Blog>)
+                data_blogs.map((singleBlog, index)=> <Blog key={index} singleBlog={singleBlog}></Blog>)
             }
             </div>
             <Footer></Footer>

@@ -10,7 +10,7 @@ const AllLawer = () => {
 
   if (showAll) {
     listItem = lawers;
-    console.log(listItem);
+    // console.log(listItem);
   } else {
     listItem = lawers.slice(0,6);
     // console.log(listItem);

@@ -62,7 +62,7 @@ const Booking = ({ lawerId, removeOne }) => {
         theme="light"
         transition={Bounce}
       /> */}
-      <ToastContainer />
+      {/* <ToastContainer /> */}
     </div>
   );
 };
