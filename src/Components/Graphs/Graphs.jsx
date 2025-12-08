@@ -6,7 +6,7 @@ const Graphs = ({ lawerInLocal, yesNo }) => {
   const data = useLoaderData();
   // console.log(data);
   const lawers = data.filter((lawer) => lawerInLocal.includes(lawer.id));
-  console.log(lawers);
+//   console.log(lawers);
 
   const chartData = lawers.map((lawer) => ({
     name: lawer.name,

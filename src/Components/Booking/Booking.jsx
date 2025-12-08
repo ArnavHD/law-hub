@@ -23,11 +23,7 @@ const Booking = ({ lawerId, removeOne }) => {
 
   const handleToastCancelled = () => {
     // notify();
-    toast.info("Appointment cancelled!", {
-      position: "top-right",
-      autoClose: 5000,
-      transition: Bounce,
-    });
+    toast("Wow so easy!");
   };
 
   return (
@@ -46,14 +42,14 @@ const Booking = ({ lawerId, removeOne }) => {
         onClick={() => {
           handleToastCancelled();
           removeOne(id);
-            // notify();
+          // notify();
         }}
         className="btn mt-4 w-full text-[rgba(255,0,0,1)] border-[rgba(255,0,0,1)] rounded-4xl"
       >
         Cancel Appointment
       </button>
       {/* <ToastContainer position="top-right" /> */}
-      <ToastContainer
+      {/* <ToastContainer
         position="top-right"
         autoClose={5000}
         hideProgressBar={false}
@@ -65,7 +61,8 @@ const Booking = ({ lawerId, removeOne }) => {
         pauseOnHover
         theme="light"
         transition={Bounce}
-      />
+      /> */}
+      <ToastContainer />
     </div>
   );
 };

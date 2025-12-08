@@ -6,7 +6,6 @@ import { addToStoreDB, getStoredLawer } from "../../Utilities/AddToDB";
 import { FiPlusCircle } from "react-icons/fi";
 import { Bounce, ToastContainer, toast } from "react-toastify";
 
-
 // import { useState } from "react";
 
 const LawerDetails = () => {
@@ -72,6 +71,9 @@ const LawerDetails = () => {
         });
         return "Duplicate";
         // console.log("Duplicated..");
+    }
+    else{
+        toast.success("Item Added");
     }
     
     // lawerInLocal.filter((id) => id === id && console.log("Not allowed"));
@@ -155,19 +157,16 @@ const LawerDetails = () => {
             let result = hendleAddAppointment(id);
             if (result !== "Duplicate") {
               navigate("/my-booking");
+            } else {
+              notify;
             }
-            else{
-                notify;
-            }
-            
           }}
-          
           className="btn w-full text-xl text-white my-6 bg-[rgb(14,161,6)] rounded-4xl"
         >
           Book Appointment Now
         </button>
 
-        <ToastContainer
+        {/* <ToastContainer
           position="top-right"
           autoClose={5000}
           hideProgressBar={false}
@@ -179,7 +178,8 @@ const LawerDetails = () => {
           pauseOnHover
           theme="light"
           transition={Bounce}
-        />
+        /> */}
+        <ToastContainer />
       </div>
     </div>
   );
