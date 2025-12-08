@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "https://media.istockphoto.com/id/104821116/photo/smiling-lawyer-sitting-at-desk-in-office.jpg?s=612x612&w=0&k=20&c=lgsv21HGQYmtXBusPC3TB22OEEjH7xKflQVjliJ1OmQ=",
+    "image": "https://i.ibb.co/5gFWX4C5/lawyer-at-work-stockcake.webp",
     "name": "Alicia Bennett",
     "speciality": "Criminal Defense",
     "experience": "12+ Years Experience",
@@ -13,7 +13,7 @@
   },
   {
     "id": 2,
-    "image": "https://media.istockphoto.com/id/104821116/photo/smiling-lawyer-sitting-at-desk-in-office.jpg?s=612x612&w=0&k=20&c=lgsv21HGQYmtXBusPC3TB22OEEjH7xKflQVjliJ1OmQ=",
+    "image": "https://i.ibb.co/gM31j0sB/1502076-Lawyer-Style-Men-Blog-Post-Hero-Image-1200-X630-120522.webp",
     "name": "Michael Harris",
     "speciality": "Family Law",
     "experience": "9+ Years Experience",
@@ -25,19 +25,7 @@
   },
   {
     "id": 3,
-    "image": "https://media.istockphoto.com/id/104821116/photo/smiling-lawyer-sitting-at-desk-in-office.jpg?s=612x612&w=0&k=20&c=lgsv21HGQYmtXBusPC3TB22OEEjH7xKflQVjliJ1OmQ=",
-    "name": "Samantha Lee",
-    "speciality": "Corporate Law",
-    "experience": "15+ Years Experience",
-    "licenseNumber": "LAW-112233",
-    "fee": 250,
-    "availability": ["Monday", "Tuesday", "Thursday", "Friday", "Saturday"],
-    "availabilityStatus": "Available",
-    "lawerDetails": "Samantha Lee is an expert in corporate law, advising businesses ranging from startups to major companies. She excels in contract negotiation, compliance issues, and corporate structuring. With her strategic thinking and deep legal knowledge, she helps organizations avoid costly mistakes. Samantha is detail-oriented, highly organized, and trusted for her ability to simplify complex corporate procedures."
-  },
-  {
-    "id": 4,
-    "image": "https://media.istockphoto.com/id/104821116/photo/smiling-lawyer-sitting-at-desk-in-office.jpg?s=612x612&w=0&k=20&c=lgsv21HGQYmtXBusPC3TB22OEEjH7xKflQVjliJ1OmQ=",
+    "image": "https://i.ibb.co/tw8StJMv/portrait-happy-male-lawyer-front-book-shelf-56896420.webp",
     "name": "Jonathan Price",
     "speciality": "Immigration Law",
     "experience": "7+ Years Experience",
@@ -48,8 +36,20 @@
     "lawerDetails": "Jonathan Price has helped numerous clients achieve their immigration goals, from visas and permanent residency to complex appeals. His patience, cultural sensitivity, and clear explanations make the immigration process less stressful. Jonathan is known for going above and beyond to ensure every client’s application is strong, accurate, and backed by thorough legal support."
   },
   {
+    "id": 4,
+    "image": "https://i.ibb.co/4g2RQQRZ/female-lawyer-office-portrait-boutique-law-firm-signing-documents-54969196.webp",
+    "name": "Samantha Lee",
+    "speciality": "Corporate Law",
+    "experience": "15+ Years Experience",
+    "licenseNumber": "LAW-112233",
+    "fee": 250,
+    "availability": ["Monday", "Tuesday", "Thursday", "Friday", "Saturday"],
+    "availabilityStatus": "Available",
+    "lawerDetails": "Samantha Lee is an expert in corporate law, advising businesses ranging from startups to major companies. She excels in contract negotiation, compliance issues, and corporate structuring. With her strategic thinking and deep legal knowledge, she helps organizations avoid costly mistakes. Samantha is detail-oriented, highly organized, and trusted for her ability to simplify complex corporate procedures."
+  },
+  {
     "id": 5,
-    "image": "https://media.istockphoto.com/id/104821116/photo/smiling-lawyer-sitting-at-desk-in-office.jpg?s=612x612&w=0&k=20&c=lgsv21HGQYmtXBusPC3TB22OEEjH7xKflQVjliJ1OmQ=",
+    "image": "https://i.ibb.co/pvsNCSDh/Jennifer20-Myers20-Chalal20-20-Updated-870x870.jpg",
     "name": "Emily Carter",
     "speciality": "Property Law",
     "experience": "10+ Years Experience",
@@ -73,7 +73,7 @@
   },
   {
     "id": 7,
-    "image": "https://media.istockphoto.com/id/104821116/photo/smiling-lawyer-sitting-at-desk-in-office.jpg?s=612x612&w=0&k=20&c=lgsv21HGQYmtXBusPC3TB22OEEjH7xKflQVjliJ1OmQ=",
+    "image": "https://i.ibb.co/4gjSRfZc/66c756274183e3b605d4ce55-64df8c7de3649241b94ae7b5-woman-arms-crossing-in-a-suit-full.jpg",
     "name": "Rachel Morgan",
     "speciality": "Tax Law",
     "experience": "11+ Years Experience",
@@ -85,7 +85,7 @@
   },
   {
     "id": 8,
-    "image": "https://media.istockphoto.com/id/104821116/photo/smiling-lawyer-sitting-at-desk-in-office.jpg?s=612x612&w=0&k=20&c=lgsv21HGQYmtXBusPC3TB22OEEjH7xKflQVjliJ1OmQ=",
+    "image": "https://i.ibb.co/1tdvX4Fy/lovepik-young-male-lawyer-png-image-401874975-wh1200.png",
     "name": "Christopher Young",
     "speciality": "Bankruptcy Law",
     "experience": "13+ Years Experience",
@@ -97,7 +97,7 @@
   },
   {
     "id": 9,
-    "image": "https://media.istockphoto.com/id/104821116/photo/smiling-lawyer-sitting-at-desk-in-office.jpg?s=612x612&w=0&k=20&c=lgsv21HGQYmtXBusPC3TB22OEEjH7xKflQVjliJ1OmQ=",
+    "image": "https://i.ibb.co/Q7QjzpqT/young-female-black-lawyer-working-in-her-office-and-reading-a-typical-D94-AE6.jpg",
     "name": "Natalie Brooks",
     "speciality": "Employment Law",
     "experience": "6+ Years Experience",
@@ -109,7 +109,7 @@
   },
   {
     "id": 10,
-    "image": "https://media.istockphoto.com/id/104821116/photo/smiling-lawyer-sitting-at-desk-in-office.jpg?s=612x612&w=0&k=20&c=lgsv21HGQYmtXBusPC3TB22OEEjH7xKflQVjliJ1OmQ=",
+    "image": "https://i.ibb.co/21Kbrv3L/todays-going-to-be-a-good-day-a-mature-male-lawyer-preparing-for-court-in-the-city-2-JJAX3-K.jpg",
     "name": "Robert King",
     "speciality": "Environmental Law",
     "experience": "14+ Years Experience",
@@ -121,7 +121,7 @@
   },
   {
     "id": 11,
-    "image": "https://media.istockphoto.com/id/104821116/photo/smiling-lawyer-sitting-at-desk-in-office.jpg?s=612x612&w=0&k=20&c=lgsv21HGQYmtXBusPC3TB22OEEjH7xKflQVjliJ1OmQ=",
+    "image": "https://i.ibb.co/jPHdH1Bn/front-view-smiley-woman-posing-23-2149429383.avif",
     "name": "Isabella Turner",
     "speciality": "Intellectual Property Law",
     "experience": "8+ Years Experience",
@@ -133,7 +133,7 @@
   },
   {
     "id": 12,
-    "image": "https://media.istockphoto.com/id/104821116/photo/smiling-lawyer-sitting-at-desk-in-office.jpg?s=612x612&w=0&k=20&c=lgsv21HGQYmtXBusPC3TB22OEEjH7xKflQVjliJ1OmQ=",
+    "image": "https://i.ibb.co/fV3KvHjJ/smile-lawyer-arms-crossed-with-portrait-man-city-justice-legal-pride-happy-legal-advocate-with-face.avif",
     "name": "Ethan Wallace",
     "speciality": "Cyber Law",
     "experience": "5+ Years Experience",
