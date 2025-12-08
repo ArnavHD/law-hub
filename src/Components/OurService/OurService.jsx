@@ -22,7 +22,7 @@ const OurService = () => {
               <CountUp
                 start={0}
                 end={199}
-                duration={2.75}
+                duration={3.75}
                 separator=" "
                 suffix="+"
                 redraw={true}
@@ -32,7 +32,7 @@ const OurService = () => {
                 {({ countUpRef, start }) => (
                   <div>
                     <span ref={countUpRef} />
-                    <button onClick={start}>Start</button>
+                    <button onClick={start}></button>
                   </div>
                 )}
               </CountUp>
@@ -49,7 +49,7 @@ const OurService = () => {
               <CountUp
                 start={0}
                 end={467}
-                duration={2.75}
+                duration={3.75}
                 separator=" "
                 suffix="+"
                 redraw={true}
@@ -59,7 +59,7 @@ const OurService = () => {
                 {({ countUpRef, start }) => (
                   <div>
                     <span ref={countUpRef} />
-                    <button onClick={start}>Start</button>
+                    <button onClick={start}></button>
                   </div>
                 )}
               </CountUp>
@@ -76,7 +76,7 @@ const OurService = () => {
               <CountUp
                 start={0}
                 end={1900}
-                duration={2.75}
+                duration={3.75}
                 decimal=","
                 suffix="+"
                 redraw={true}
@@ -86,7 +86,7 @@ const OurService = () => {
                 {({ countUpRef, start }) => (
                   <div>
                     <span ref={countUpRef} />
-                    <button onClick={start}>Start</button>
+                    <button onClick={start}></button>
                   </div>
                 )}
               </CountUp>
@@ -103,7 +103,7 @@ const OurService = () => {
               <CountUp
                 start={0}
                 end={300}
-                duration={2.75}
+                duration={3.75}
                 separator=" "
                 suffix="+"
                 redraw={true}
@@ -113,7 +113,7 @@ const OurService = () => {
                 {({ countUpRef, start }) => (
                   <div>
                     <span ref={countUpRef} />
-                    <button onClick={start}>Start</button>
+                    <button onClick={start}></button>
                   </div>
                 )}
               </CountUp>
